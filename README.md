@@ -1,2 +1,2 @@
-# Desafio-DIO-Git-GitHun
-Repositório referente ao desafio Git/GitHub da Dio
+# Desafio DIO: criando meu primeiro repositório
+Reposotório desafio Git/GitHub
