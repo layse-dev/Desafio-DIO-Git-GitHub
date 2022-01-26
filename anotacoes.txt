@@ -1,0 +1,40 @@
+Introdução ao Git e ao GitHub
+
+=* comandos Windows:
+ - cd: narvegar nos diretorios
+ - dir: listar diretorios
+ - cls: limpar
+ - mkdir: criar diretorio
+ - rmdir: deletar diretorio
+ - del: deletar arquivo
+
+=* como o Git funciona por baixo dos panos:
+
+ - SHA1:
+	+ (Algoritmo de Hash Seguro), é o conjunto de funções hash criptograficas projetadas pela NSA.
+ 	+ É uma forma curta de representar um arquivo.
+ - Objetos fundamentais:
+	+ BLOBS: contem metadodos do git, que são o tipo do objeto, o tamanho da string, o tamanho do arquivo, guarda o sha1,... 
+	+ TREES: armazenam blobs, contem metadados, guarda o nome dos arquivos, 
+	+ COMMITS: aponta para uma arvore, para um parente(outro(s) commit), apara um autor, e para uma mensagem, timestamp, o SHA1 desse commit é o hash de toda a essa informação.
+ - Sistema distribuido: 
+ - Segurança:
+	+ Chave SSH:
+	+ Token de acesso:
+
+=* primeiros comandos do git (iniciando o Git e criando um commit)
+
+ - git init: inicia o repositorio do GIT
+ - git add: mover arquivos e começar o vercionamento e conhecer os primeiro comandos
+ - git commit: criar um commit
+ - flag "-a": mostrar arquivos ocultos
+
+=* outros comandos:
+
+ - git clone <http>: clonar um repositorio do github;
+ - git status
+ - git config --global (ou --unset) user.name
+ - git config --global (ou --unset) user-email
+ - git config --list
+
+
